@@ -40,6 +40,7 @@ class _NewsState extends State<News> {
               : SizedBox(),
           Expanded(
             child: WebView(
+              javascriptMode: JavascriptMode.unrestricted,
               initialUrl: widget.article.url,
               onProgress: (progress) {
                 setState(() {
