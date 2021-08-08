@@ -1,4 +1,4 @@
-# bloc_app_dynamic
+# Bloc Practice 2 ( News App )
 
 A new Flutter project.
 
